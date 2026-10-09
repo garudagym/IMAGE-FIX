@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120">
+<g fill="none" stroke="#C89B3C" stroke-width="4" stroke-linejoin="round">
+<path d="M210 12c-18 18-25 38-25 59 0 14 7 25 25 37 18-12 25-23 25-37 0-21-7-41-25-59Z" fill="#C89B3C" stroke="none"/>
+<path d="M183 29c-26 2-51 15-68 35 27-6 49-3 68 10M237 29c26 2 51 15 68 35-27-6-49-3-68 10"/>
+<path d="M193 76c-10 7-19 12-32 14 16 5 32 4 49-2M227 76c10 7 19 12 32 14-16 5-32 4-49-2"/>
+</g><text x="210" y="102" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="900" fill="#C89B3C">GARUDA</text>
+<text x="210" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#C89B3C" letter-spacing="2">FITNESS ZONE</text>
+</svg>
