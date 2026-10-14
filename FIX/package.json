@@ -1,0 +1,34 @@
+{
+  "name": "garuda-fitness-zone-backend",
+  "version": "1.0.182",
+  "private": true,
+  "description": "Consolidated early-capture navigation, authentication and scroll regression fixes",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "check": "node --check src/server.js && node --check src/notifications.js && node --check src/sms.js && node --check src/routes/payments.js && node --check src/routes/members.js && node --check src/routes/admin.js && node --check src/routes/state.js && node --check src/seed.js",
+    "test:static": "node scripts/smoke-test.js",
+    "test:v156": "node scripts/v156-smoke-test.js",
+    "test:v179": "node scripts/v179-regression-test.js",
+    "test:v180": "node scripts/v180-regression-test.js"
+  },
+  "engines": {
+    "node": ">=20.18.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2",
+    "razorpay": "^2.9.6",
+    "cloudinary": "^2.7.0"
+  }
+}
